@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.box{
+/* 	width:100px;
+	height:100px;
+	background-color:red;
+	transform: scale(1);
+	animation: pulse 1s infinite ease-in-out; */
+	  width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: pulse 1s infinite ease-in-out;
+}
+@keyframes pulse {
+0%{
+transform: scale(1);
+}
+50%{
+	transform: scale(1.2);
+}
+100%{
+	transform: scale(1);
+}
+}
